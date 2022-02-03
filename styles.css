@@ -1,0 +1,75 @@
+*{
+  font-family: 'Press Start 2P', cursive;
+  margin: 0;
+}
+
+body {
+  background-color: #011F3F;
+  position: relative;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.8rem;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin: 4% auto 5%;
+  color: #FEF2BF;
+}
+
+.blink {
+  animation: blink 1s step-end infinite both;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  margin:30px auto 0;
+  display: none;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+
+/*...Animations...*/
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
